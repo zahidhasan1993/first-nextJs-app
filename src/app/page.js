@@ -1,8 +1,12 @@
-import Image from 'next/image'
+import About from '@/Components/About'
 import styles from './page.module.css'
+import Banner from '@/Components/Banner'
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <Banner></Banner>
+      <About></About>
+    </div>
   )
 }
